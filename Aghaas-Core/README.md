@@ -30,10 +30,10 @@ and the terminal will change to this type as shown in the image above
 sbt:Aghaas-Core>
 ```
 
-### Navigate to Datapath Directory as
+### Navigate to Datapath Directory via
 
-```ruby
-cd Aghaas-Core/src/main/scala/Datapath
+```
+Aghaas-Core/src/main/scala/Datapath
 ```
 
 ### Then perform the following step
@@ -52,21 +52,12 @@ Each instruction's hexadecimal code must be on seperate line as following. The f
 00008067
 ```
 
-After pasting your own set of instructions or the above ones, Open **Config.scala** with this command. You can also manually go into the above path and open the file in your favorite text editor.
-```ruby
-open Config.scala
-```
-
-Find the following line
+After pasting your own set of instructions or the above ones, Open **Config.scala**  manually by gong into the above path and open the file in your favorite text editor. Find the following line
 ``` python
 val initFile = "Some Path to txt file"
 ```
 
 Update the .txt file path to match your "instrFile.txt" that you updated above to store your own program instructions.
-```ruby
-cd Aghaas-Core
-```
-
 After setting up the Config.scala file, Enter this command
 ```ruby
 sbt:Aghaas-Core> testOnly Datapath.TopFileTest -- -DwriteVcd=1
