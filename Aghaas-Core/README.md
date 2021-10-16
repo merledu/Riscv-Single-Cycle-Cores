@@ -7,8 +7,20 @@ I'm in my senior year currently pursuing bachelors in software engineering at [U
 
 ### First of all get started by Cloning this repository in your machine
 ```ruby
-git clone https://github.com/Agha-Muqarib/Aghaas-Core.git
+https://github.com/Agha-Muqarib/Riscv-Single-Cycle-Cores.git
 ```
+## Navigate to Aghaas-Core directory as
+```ruby
+cd Aghaas-Core
+```
+
+## Navigate to Datapath Directory as
+
+```ruby
+cd Aghaas-Core/src/main/scala/Datapath
+```
+
+### Then perform the following step
 
 Open  "instrFile.txt" file and place the instruction(Hexa-Decimal) code simulated on ***Venus*** (RISC-V Simulator)\
 Each instruction's hexadecimal code must be on seperate line as following. The following is a sample program containing 9 instructions.
@@ -23,11 +35,9 @@ Each instruction's hexadecimal code must be on seperate line as following. The f
 00310233
 00008067
 ```
-### Then perform the following step
-```ruby
-cd Aghaas-Core/src/main/scala/Datapath
-```
-Open **Config.scala** with this command. You can also manually go into the above path and open the file in your favorite text editor.
+
+
+After pasting your own set of instructions or the above ones, Open **Config.scala** with this command. You can also manually go into the above path and open the file in your favorite text editor.
 ```ruby
 open Config.scala
 ```
