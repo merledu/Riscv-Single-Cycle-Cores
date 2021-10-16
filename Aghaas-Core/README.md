@@ -10,7 +10,7 @@ I'm in my senior year currently pursuing bachelors in software engineering at [U
 https://github.com/Agha-Muqarib/Riscv-Single-Cycle-Cores.git
 ```
 
-### Navigate to Aghaas-Core directory as
+### Navigate to ***Aghaas-Core*** directory as
 ```ruby
 cd Aghaas-Core
 ```
@@ -58,12 +58,11 @@ val initFile = "Some Path to txt file"
 ```
 
 Update the .txt file path to match your "instrFile.txt" that you updated above to store your own program instructions.\
-After setting up the Config.scala file, go inside the ***Aghaas-Core*** folder.
 ```ruby
 cd Aghaas-Core
 ```
 
-Enter this command
+After setting up the Config.scala file, Enter this command
 ```ruby
 sbt:Aghaas-Core> testOnly Datapath.TopFileTest -- -DwriteVcd=1
 ```
