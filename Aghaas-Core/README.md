@@ -9,12 +9,12 @@ I'm in my senior year currently pursuing bachelors in software engineering at [U
 ```ruby
 https://github.com/Agha-Muqarib/Riscv-Single-Cycle-Cores.git
 ```
-## Navigate to Aghaas-Core directory as
+### Navigate to Aghaas-Core directory as
 ```ruby
 cd Aghaas-Core
 ```
 
-## Navigate to Datapath Directory as
+### Navigate to Datapath Directory as
 
 ```ruby
 cd Aghaas-Core/src/main/scala/Datapath
