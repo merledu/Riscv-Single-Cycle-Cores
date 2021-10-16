@@ -36,8 +36,6 @@ sbt:Aghaas-Core>
 Aghaas-Core/src/main/scala/Datapath
 ```
 
-### Then perform the following step
-
 Open  "instrFile.txt" file and place the instruction(Hexa-Decimal) code simulated on ***Venus*** (RISC-V Simulator)\
 Each instruction's hexadecimal code must be on seperate line as following. The following is a sample program containing 9 instructions.
 ```
