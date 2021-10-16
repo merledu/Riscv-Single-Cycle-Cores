@@ -20,7 +20,8 @@ And enter
 sbt
 ```
 
-The reult will look like this 
+The result will look like this
+
 ![image](https://user-images.githubusercontent.com/51242857/137596533-cced34b3-bf1d-4b8c-9f53-3f20487ce39f.png)
 
 
@@ -71,6 +72,8 @@ After setting up the Config.scala file, Enter this command
 sbt:Aghaas-Core> testOnly Datapath.TopFileTest -- -DwriteVcd=1
 ```
 The result will look like this:
+
+
 ![image](https://user-images.githubusercontent.com/51242857/137596510-1686b1f7-f736-41ae-8d9c-0d7763ee2a6b.png)
 
 After success, you will get a folder naming ***test_run_dir*** on root of your folder. Navigate to the Top_File_Test folder inside.\
