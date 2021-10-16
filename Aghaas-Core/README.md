@@ -57,7 +57,7 @@ Find the following line
 val initFile = "Some Path to txt file"
 ```
 
-Update the .txt file path to match your "instrFile.txt" that you updated above to store your own program instructions.\
+Update the .txt file path to match your "instrFile.txt" that you updated above to store your own program instructions.
 ```ruby
 cd Aghaas-Core
 ```
