@@ -22,7 +22,7 @@ sbt
 
 The result will look like this
 
-![image](https://user-images.githubusercontent.com/51242857/137596533-cced34b3-bf1d-4b8c-9f53-3f20487ce39f.png)
+![image](https://user-images.githubusercontent.com/51242857/137596628-4a009c08-7c00-4ab9-9b5a-4209f5a89005.png)
 
 
 and the terminal will change to this type as shown in the image above
@@ -73,8 +73,7 @@ sbt:Aghaas-Core> testOnly Datapath.TopFileTest -- -DwriteVcd=1
 ```
 The result will look like this:
 
-
-![image](https://user-images.githubusercontent.com/51242857/137596510-1686b1f7-f736-41ae-8d9c-0d7763ee2a6b.png)
+![image](https://user-images.githubusercontent.com/51242857/137596689-ddd16462-3a85-4979-93d2-011241a1a856.png)
 
 After success, you will get a folder naming ***test_run_dir*** on root of your folder. Navigate to the Top_File_Test folder inside.\
 There, you will find a file named TopFile.vcd, double click it and visualise on **GTKwave** to\
