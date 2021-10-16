@@ -14,6 +14,15 @@ https://github.com/Agha-Muqarib/Riscv-Single-Cycle-Cores.git
 cd Aghaas-Core
 ```
 
+And enter
+```ruby
+sbt
+```
+When the terminal changes to this type
+```ruby
+sbt:Aghaas-Core>
+```
+
 ### Navigate to Datapath Directory as
 
 ```ruby
@@ -50,14 +59,7 @@ After setting up the Config.scala file, go inside the ***Aghaas-Core*** folder.
 ```ruby
 cd Aghaas-Core
 ```
-And enter
-```ruby
-sbt
-```
-When the terminal changes to this type
-```ruby
-sbt:Aghaas-Core>
-```
+
 Enter this command
 ```ruby
 sbt:Aghaas-Core> testOnly Datapath.TopFileTest -- -DwriteVcd=1
