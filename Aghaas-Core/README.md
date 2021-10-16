@@ -50,7 +50,7 @@ Each instruction's hexadecimal code must be on seperate line as following. The f
 00008067
 ```
 
-After pasting your own set of instructions or the above ones, Open **Config.scala**  manually by gong into the above path and open the file in your favorite text editor. Find the following line
+After pasting your own set of instructions or the above ones, Open **Config.scala**  manually by following the above path and open the file in your favorite text editor. Find the following line
 ``` python
 val initFile = "Some Path to txt file"
 ```
