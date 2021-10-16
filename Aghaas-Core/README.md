@@ -9,6 +9,7 @@ I'm in my senior year currently pursuing bachelors in software engineering at [U
 ```ruby
 https://github.com/Agha-Muqarib/Riscv-Single-Cycle-Cores.git
 ```
+
 ### Navigate to Aghaas-Core directory as
 ```ruby
 cd Aghaas-Core
@@ -18,7 +19,8 @@ And enter
 ```ruby
 sbt
 ```
-When the terminal changes to this type
+
+The terminal will change to this type
 ```ruby
 sbt:Aghaas-Core>
 ```
@@ -45,15 +47,16 @@ Each instruction's hexadecimal code must be on seperate line as following. The f
 00008067
 ```
 
-
 After pasting your own set of instructions or the above ones, Open **Config.scala** with this command. You can also manually go into the above path and open the file in your favorite text editor.
 ```ruby
 open Config.scala
 ```
+
 Find the following line
 ``` python
 val initFile = "Some Path to txt file"
 ```
+
 Update the .txt file path to match your "instrFile.txt" that you updated above to store your own program instructions.\
 After setting up the Config.scala file, go inside the ***Aghaas-Core*** folder.
 ```ruby
@@ -64,7 +67,8 @@ Enter this command
 ```ruby
 sbt:Aghaas-Core> testOnly Datapath.TopFileTest -- -DwriteVcd=1
 ```
-After success you will get a folder naming ***test_run_dir*** on root of your folder. Navigate to the Top_File_Test folder inside.\
+
+After success, you will get a folder naming ***test_run_dir*** on root of your folder. Navigate to the Top_File_Test folder inside.\
 There, you will find a file named TopFile.vcd, double click it and visualise on **gtkwave** to\
 see your program running.
 
