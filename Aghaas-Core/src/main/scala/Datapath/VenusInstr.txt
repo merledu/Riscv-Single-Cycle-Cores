@@ -1,0 +1,51 @@
+addi x12 x0 4               - P
+add x13 x5 x0               - P
+slli x14 x12 1              - P
+sll x13 x12 x14             - P
+sra x13 x12 x14             - P
+srai x13 x12 2              - P
+xor x13 x12 x14             - P
+xori x13 x12 2              - P
+srli x13 x12 2              - P
+srl x13 x12 x14             - P
+or x13 x12 x14              - P
+ori x13 x12 14              - P
+andi x13 x12 14             - P
+and x13 x12 x14             - P
+sub x13 x12 x14             - P
+jalr x10 x0 13              - P
+
+[jal x10 label              - P
+label: addi x11 x0 5]     
+
+[addi bge x0 x10 label      - P
+label: addi x12 x0 3]
+
+[bgeu x10 x0 label          - P
+label: addi x11 x0 3]
+
+[addi x3 x0 5               - P
+sltu x10 x0 x3]
+
+[addi x10 x0 3
+bltu x10 x0 label           - P
+label: addi x13 x10 5]
+
+[addi x10 x0 3
+beq x10 x0 label            - P
+label: addi x13 x10 5]
+
+[addi x10 x0 3              - P
+slt x11 x0 x10]
+
+slti x11 x0 3               - P
+
+[blt x11 x0 label           - P
+label: addi x13 x0 3]
+
+[addi x10 x0 5      
+bne x0 x10 label            - P
+label: addi x13 x0 5]       
+
+
+
