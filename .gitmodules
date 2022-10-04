@@ -1,0 +1,3 @@
+[submodule "ALEPH-Core"]
+	path = ALEPH-Core
+	url = https://github.com/samadpls/ALEPH.git
