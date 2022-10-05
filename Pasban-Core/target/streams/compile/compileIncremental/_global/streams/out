@@ -1,0 +1,66 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/SINGLE_CYCLE/REGISTERS/REGISTERS.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/MEMORY1/MEMORY1.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/RISC5/RISC5.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/JALR/JALR.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/PC4/PC4.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/ALUCONTROL/ALUCONTROL.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/IMMEDIATE/IMMEDIATE.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/BRANCH/BRANCH.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/MEMORY2/MEMORY2.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/PC/PC.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/CONTROL/CONTROL.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/ALU/ALU.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/SINGLE_CYCLE/RISC5/RISC5.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/JALR/JALR.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/ALUCONTROL/ALUCONTROL.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/ALU/ALU.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/BRANCH/BRANCH.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/PC4/PC4.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/CONTROL/CONTROL.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/PC/PC.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/REGISTERS/REGISTERS.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/MEMORY1/MEMORY1.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/IMMEDIATE/IMMEDIATE.scala, ${BASE}/src/main/scala/SINGLE_CYCLE/MEMORY2/MEMORY2.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 12 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 12 Scala sources to C:\Users\Muhammad Sameed\Desktop\Desktop clean\Hafsa\Merl\Apps\SINGLE-CYCLE\target\scala-2.12\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.7.1:compile for Scala 2.12.13[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.12' for Scala 2.12.13. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.12.13.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_3ae649b8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.13\scala-library-2.12.13.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.7.1\compiler-interface-1.7.1.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.7.0\util-interface-1.7.0.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-bridge_2.12\1.7.1\compiler-bridge_2.12-1.7.1-sources.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.13\scala-compiler-2.12.13.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.13\scala-reflect-2.12.13.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\scala\ZincCompat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\AbstractZincFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\CompilerBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\ConsoleBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\InteractiveConsoleBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\InteractiveConsoleFactoryBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\JarUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\PlainNioFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\MUHAMM~1\AppData\Local\Temp\sbt_dc73b458\xsbt\ScaladocBridge.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 43.179s.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 47675132 for Scala compiler version 2.12.13[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xsource:2.11[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:reflectiveCalls[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xcheckinit[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-P:chiselplugin:useBundlePlugin[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-plugin_2.12.13\3.4.3\chisel3-plugin_2.12.13-3.4.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalamacros\paradise_2.12.13\2.1.1\paradise_2.12.13-2.1.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.13\scala-library-2.12.13.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Muhammad Sameed\Desktop\Desktop clean\Hafsa\Merl\Apps\SINGLE-CYCLE\target\scala-2.12\classes;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3_2.12\3.4.3\chisel3_2.12-3.4.3.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-macros_2.12\3.4.3\chisel3-macros_2.12-3.4.3.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\chisel3-core_2.12\3.4.3\chisel3-core_2.12-3.4.3.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.13\scala-reflect-2.12.13.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\scopt\scopt_2.12\3.7.1\scopt_2.12-3.7.1.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\edu\berkeley\cs\firrtl_2.12\1.4.3\firrtl_2.12-1.4.3.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\antlr\antlr4-runtime\4.7.1\antlr4-runtime-4.7.1.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.9.0\protobuf-java-3.9.0.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\net\jcazevedo\moultingyaml_2.12\0.4.2\moultingyaml_2.12-0.4.2.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-native_2.12\3.6.9\json4s-native_2.12-3.6.9.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-text\1.8\commons-text-1.8.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\github\nscala-time\nscala-time_2.12\2.22.0\nscala-time_2.12-2.22.0.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\1.26\snakeyaml-1.26.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-core_2.12\3.6.9\json4s-core_2.12-3.6.9.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.1\joda-time-2.10.1.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\joda\joda-convert\2.2.0\joda-convert-2.2.0.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-ast_2.12\3.6.9\json4s-ast_2.12-3.6.9.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\json4s\json4s-scalap_2.12\3.6.9\json4s-scalap_2.12-3.6.9.jar;C:\Users\Muhammad Sameed\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 80.0666478 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
