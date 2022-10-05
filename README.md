@@ -11,4 +11,4 @@ This repository contains the implementation of RISC-V Single Cycle Cores done by
 | [**Pasban Core**](https://github.com/Hafsa-shoaib989/Riscv-Single-Cycle-Cores/tree/main/Pasban-Core) | [**Hafsa Shoaib**](https://github.com/Hafsa-shoaib989) | 2nd | 05 |
 | [Shaheen Core](https://github.com/saadali05/Riscv-Single-Cycle-Cores/tree/main/Shaheen-core(V2))  | Saad Ather Ali| 2nd  |  05 |
 | [**Swallow-Core**](https://github.com/latifbhatti/Riscv-Single-Cycle-Cores)  | [**Mohammad Latif**](https://github.com/latifbhatti)  |  2nd | 05  |
-
+| [**takbir-Core**](https://github.com/KHADEEJAH123/Riscv-Single-Cycle-Core/tree/main/takbir-Core)  | [**Khadeejah Ashraf**](https://github.com/KHADEEJAH123)  |  2nd | 05  |
