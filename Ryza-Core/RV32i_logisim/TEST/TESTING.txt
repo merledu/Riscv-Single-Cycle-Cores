@@ -1,0 +1,33 @@
+
+
+addi x1, x0, 0     # x1 = fib(0) = 0
+addi x2, x0, 1     # x2 = fib(1) = 1
+addi x3, x0, 8     
+
+LOOP: beq x3, x0, END 
+add  x5, x1, x2    
+add  x1, x2, x0    
+add  x2, x5, x0    
+addi x3, x3, -1    
+jal  x0, LOOP     
+END:  jal  x0, END      
+
+
+addi x1, x0, 0     # x1 = fib(0) = 0
+addi x2, x0, 1     # x2 = fib(1) = 1
+addi x3, x0, 8     # Loop counter = 8
+addi x4, x0, 0x100 # Base address for DMEM (e.g., 0x100)
+
+LOOP: beq x3, x0, END 
+add  x5, x1, x2    # x5 = next Fibonacci number
+add  x1, x2, x0    
+add  x2, x5, x0    
+sw   x5, 0(x4)     # STORE to DMEM: Write x5 to the memory address in x4
+addi x4, x4, 4     # Increment memory pointer by 4 bytes (1 word)
+addi x3, x3, -1    
+jal  x0, LOOP     
+
+END:  jal  x0, END 
+
+
+
